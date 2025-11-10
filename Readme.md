@@ -16,11 +16,11 @@ arm64 系统下，最多支持 2,147,483,647 条系谱记录、65,535 条基因�
 依赖 Python 3.6 及以上版本；
 编译依赖 python3-devel 库，安装命令：
 bash
-# Debian/Ubuntu系统
+#### Debian/Ubuntu系统
 apt-get depends python2-dev
 apt-get depends python3-dev
 
-# CentOS/RHEL系统
+#### CentOS/RHEL系统
 yum install python2-devel
 yum install python3-devel
 若 Python 为完整编译安装，该依赖已默认存在；若需使用完整编译的 Python 依赖库，需确保 Python 版本≤3.9。
